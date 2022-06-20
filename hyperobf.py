@@ -39,7 +39,7 @@ class Obfuscator:
             )
 
         if 'You are a skid' in req.text:
-            print('[ x ] You are ratelimited lmao, use vpn')
+            sys.exit('[ x ] You are ip banned lmao, use vpn')
         else:
             print(' [ * ] hyperobfuscated successfully')
             with open('hyperobf.py', 'a') as _:
