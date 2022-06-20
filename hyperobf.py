@@ -77,6 +77,8 @@ if __name__ == '__main__':
 
     data, file_path = obf.get_data()
     obf.obfuscate(data)
+    
+    input('Add imports to obfuscated file before turning it into an .exe')
 
     exefy = Exefy(
         path = file_path,
